@@ -1,24 +1,34 @@
 *{
     box-sizing: border-box;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 1000
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000 */
 
-.cairo-play-<uniquifier> {
+/* .cairo-play-<uniquifier> {
   font-family: "Cairo Play", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
-}
+} */
 body{
     margin: 0;
-    background-color: rgb(238, 255, 239);
+    background-image: url("images/Fall_Wallpaper.jpg");
+    /* background-color: linear-gradient(to top,skyblue, white); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
 }
 
 p,h1,h2,h3,h4,h5,h6{
     font-family: Cairo Play,Roboto,verdana, arial;
+    background-color: linear-gradient(to top,skyblue, rgb(252, 72, 72));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: rgb(95, 95, 95);
     border-top-style: dotted;
     border-bottom-style: dotted;
