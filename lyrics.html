@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.jpg" type="image/jpg">
     <title>My Song Lirics</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Forget Me</h1>
@@ -14,15 +16,37 @@
 
     <img src="images/lewis_capaldi.jpeg" alt="Lewis Capaldi" height="100px"/>
 <br>
-<p>Losing My Mind</p>
+<p><u>Losing My Mind</u></p>
     <audio controls autoplay muted loop>
         <source src="music/Losing_My_Mind.mp3" type="audio/mpeg">
 
     </audio>
+    <br>
+    
+    <video src="video/zelda.mp4" width="500px" controls autoplay muted loop>
+        <source src="video/zelda.mp4" type="video/mp4">
+    </video>
 
 
     <hr>
     <br>
+    <!-- <a href="index.html">
+    <button style="background-color: grey; color: lightblue; border-radius: 25px;">Click Me</button></a> -->
+<br><br>
+    <button onclick="doSomething()" style="background-color: grey; color: lightblue; border-radius: 25px;">Click Me</button>
+
+    <p id="greeting">Hello</p>
+<script>
+    function doSomething(){
+        document.getElementById("greeting").innerHTML = "Goodbey!!!!";
+
+    }
+</script>
+
+
+
+
+
     <pre>
         Days ache and nights are long
         Two years and still, you're not gone
@@ -34,50 +58,64 @@
         And said that I did everything wrong
         And you're not wrong
         
+        <h4>Ini penggunaan span</h4>
         Well, I'll take all the vitriol
-        But not the thought of you moving on
-        
-        'Cause I'm not ready
-        To find out you know how to forget me
-        I'd rather hear how much you regret me
-        And pray to God that you never met me
+        But not the thought of you moving on<span style="background-color: tomato;">
+         span digunakan untuk kata yang ditandai </span>
+         God that you never met me
         Than forget me
         Oh, I hate to know I made you cry
         But love to know I cross your mind, babe, oh, I
         Even after all, it still wrecks me
         To find out you knew how to forget me
         Even after all this time
-        
-        Days ache and nights are grey
+
+        <h4>Ini penggunaan div</h4>
+        <div style="background-color: cyan;">
+        div digunakan satu grup Days ache and nights are grey
         My heart is still your place, babe
-        Guess I still feel the same
+        Guess I still feel the same</div>
         Know you can't stand my face
         Some scars you can't erase, babe
         Guess you still feel the same
-        
         Well, I'll take all the vitriol
         But not the thought of you moving on
+        <h4>Ini penggunaan li didalam UL</h4>
+    <ul style="background-color: rgb(165, 243, 158);">
+        <li> <b>Ini penggunaan li didalam UL</b> </li>
+        <li> To find out you know how to forget me</li>
+        <li> I'd rather hear how much you regret me</li>
+        <li> And pray to God that you never met me</li>
+        <li> Than forget me</li>
+    </ul>
+       
         
-        'Cause I'm not ready
-        To find out you know how to forget me
-        I'd rather hear how much you regret me
-        And pray to God that you never met me
-        Than forget me
-        Oh, I hate to know I made you cry
-        But love to know I cross your mind, babe, oh, I
-        Even after all, it still wrecks me
-        To find out you knew how to forget me
-        Even after all this time
-        
-        I'm not ready to let you forget me, 
+        <h4>Ini penggunaan li didalam OL</h4> 
+        <ol style="background-color: rgb(243, 230, 109);">
+            <li> <b>Ini penggunaan li didalam OL</b> </li>
+        <li> To find out you know how to forget me</li>
+        <li> I'd rather hear how much you regret me</li>
+        <li> And pray to God that you never met me</li>
+        <li> Than forget me</li>
+        </ol>
+
         to let you forget me, to let you for—, oh
         I'm not ready to let you forget me, 
-        to let you forget me, to let you for—, oh 
-        (Even after all this time)
-        I'm not ready to let you forget me, 
-        to let you forget me, to let you for—, oh
-        I'm not ready to let you forget me, 
-        to let you forget me, to let you for—, oh
+        <h4>Ini penggunaan DT>DD didalam DL</h4> 
+        <dl style="background-color: lightgreen; border: 2px solid;">
+            <dt> DT data dt 1 </dt>
+                <dd> DD to let you forget me, to let you for—, oh to let you forget me, to let you for—, oh</dd>
+            <dt> DT data dt 2</dt>
+                <dd>  DD (Even after all this time) I'm not ready to let you forget me, </dd>
+            <dt> DT data dt 3  </dt>
+                <dd> DD I'm not ready to let you forget me, to let you forget me, to let you for—, oh</dd>
+        </dl>
+       
+      
+     
+       
+      
+       
         
         'Cause I'm not ready
         To find out you know how to forget me
@@ -89,5 +127,29 @@
         Even after all, it still wrecks me
         To find out you knew how to forget me
         Even after all this time</pre>
+
+
+        <H3>Tabel</H3>
+        <table border="1" style="background-color: black;">
+            <tr align="center" style="background-color: lightblue;">
+                <th width="100">Minggu</th>
+                <th width="100">Senin</th>
+                <th width="100">Selasa</th>
+                <th width="100">Rabu</th>
+                <th width="100">Kamis</th>
+                <th width="100">Jum'at</th>
+                <th width="100">Sabtu</th>
+            </tr>
+            <tr align="center" style="background-color: aliceblue;">
+                <td>Closed</td>
+                <td>9-5</td>
+                <td>8-5</td>
+                <td>7-5</td>
+                <td>6-5</td>
+                <td>7-5</td>
+                <td>10-5</td>
+            </tr>
+        </table>
+
 </body>
 </html>
