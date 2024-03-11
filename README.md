@@ -1,1 +1,3 @@
 # e_lakip
+HTML DASAR
+CSS DASAR
