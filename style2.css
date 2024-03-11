@@ -4,7 +4,7 @@
 
 body{
     margin: 0;
-    /* background-color: black; */
+    background-color: slategray;
 }
 
 h1{
@@ -13,9 +13,55 @@ h1{
 .odd{
     color: red;
 }
+/* CLASS = . (TITIK) */
 .even{
     color:  blue;
 }
+/* ID = # (KRES) */
+#p1{
+    color: tomato;
+}
+#p2{
+    color: rgb(77, 208, 247);
+}
+#p3{
+    color: goldenrod;
+}
+#p4{
+    color: hsl(277, 100%, 62%);
+}
+#p5{
+    color: red;
+}
+#p6{
+    color: yellow;
+}
+#p7{
+    color: fuchsia;
+}
+#p8{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 header{
