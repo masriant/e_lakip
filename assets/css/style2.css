@@ -14,7 +14,7 @@
 } */
 body{
     margin: 0;
-    background-image: url("images/Fall_Wallpaper.jpg");
+    background-image: url("/assets/images/Fall_Wallpaper.jpg");
     /* background-color: linear-gradient(to top,skyblue, white); */
     background-repeat: no-repeat;
     background-attachment: fixed;
