@@ -1,0 +1,89 @@
+a:link{
+    color: lawngreen;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: tomato;
+}
+
+a:active{
+    color: yellow;
+
+}
+
+button:hover{
+    color: rgb(12, 65, 240);
+}
+
+button:active{
+    color: rgb(245, 22, 22);
+}
+
+li:hover{
+    background-color: grey;
+}
+
+li:nth-child(1){
+    background-color: yellow;
+}
+li:nth-child(2){
+    background-color: green;
+}
+li:nth-child(3){
+    background-color: blue;
+}
+li:nth-child(4){
+    background-color: red;
+}
+/* li:nth-child(odd){
+    background-color: tomato;
+}
+li:nth-child(even){
+    background-color: gold;
+} */
+
+ol:nth-child(odd){
+    background-color: tomato;
+}
+ol:nth-child(even){
+    background-color: gold;
+}
+
+p::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    color: skyblue;
+}
+
+p::selection{
+    color: greenyellow;
+    background-color: gray;
+}
+/* li::before{
+content: "✔️";
+} */
+#list1 li::before{
+    content: "✔️"; 
+}
+#list1 li::after{
+    content: "✔️";
+}
+#list2 ol::before{
+    content: "✔️";
+}
+#list2 ol::after{
+    content: "👈";
+}
+li::marker{
+    color: silver;
+}
+#CSS::after{
+    content: "🌈";
+}
